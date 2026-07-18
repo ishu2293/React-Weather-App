@@ -1,6 +1,8 @@
 # React Weather App
 
 A responsive weather application built with **React** that provides **real-time weather** information for any city using the **OpenWeather API**.
+<br><br>
+Try it out: https://react-weather-app-wheat-omega.vercel.app/
 
 <img width="1348" height="817" alt="Screenshot 2026-07-18 224839" src="https://github.com/user-attachments/assets/7f078331-a4c8-49ae-bb80-80f2414b0f64" />
 <img width="1226" height="797" alt="image" src="https://github.com/user-attachments/assets/ef7ff108-c62d-4137-9a89-cb004c4a92ae" />
