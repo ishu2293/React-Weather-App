@@ -1,150 +1,113 @@
-# 🌦️ Weather App
+# React Weather App
 
-A modern and responsive weather application built with **React** that provides real-time weather information for any city/country using the **OpenWeather API**.
+A responsive weather application built with **React** that provides real-time weather information for any city using the **OpenWeather API**.
 
----
+<img width="1348" height="817" alt="Screenshot 2026-07-18 224839" src="https://github.com/user-attachments/assets/7f078331-a4c8-49ae-bb80-80f2414b0f64" />
 
-## 📸 Preview
 
-> Add a screenshot of your project here.
+## Features
 
-Example:
+- Search weather by city/country name
+- View real-time weather information
+- Display temperature, humidity, and feels-like temperature
+- Show minimum and maximum temperatures
+- Dynamic weather images based on weather conditions
+- Dynamic weather icons
+- Error handling for invalid city names
+- Responsive user interface built with Material UI
 
-![Weather App Screenshot](./screenshot.png)
-
----
-
-## ✨ Features
-
-- 🔍 Search weather by city name
-- 🌡️ Display current temperature
-- 🤗 Shows "Feels Like" temperature
-- 💧 Humidity information
-- 📉 Minimum temperature
-- 📈 Maximum temperature
-- 🌤️ Weather description
-- 🎨 Dynamic weather images based on weather conditions
-- 🌞 Dynamic weather icons
-- ❌ Error handling for invalid city names
-- 📱 Responsive UI using Material UI
-
----
-
-## 🛠️ Tech Stack
+## Tech Stack
 
 - React
-- JavaScript (ES6+)
 - Vite
+- JavaScript (ES6+)
 - Material UI
-- OpenWeather API
 - CSS
+- OpenWeather API
 
----
-
-## 📂 Project Structure
+## Project Structure
 
 ```
-src/
-├── components/
-│   ├── SearchBox.jsx
+mini-project-React/
+│── public/
+│── src/
+│   ├── assets/
+│   │   └── weather-app.png
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   ├── InfoBox.css
 │   ├── InfoBox.jsx
+│   ├── main.jsx
+│   ├── SearchBox.jsx
 │   └── WeatherApp.jsx
-├── App.jsx
-├── main.jsx
-└── index.css
+│── README.md
 ```
 
----
+## Installation
 
-## 🚀 Getting Started
-
-### Clone the repository
+Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/ishu2293/React-Weather-App.git
 ```
 
-### Go to project directory
+Navigate to the project:
 
 ```bash
-cd weather-app
+cd React-Weather-App
 ```
 
-### Install dependencies
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-### Create a `.env` file
+Create a `.env` file in the project root:
 
 ```env
 VITE_API_KEY=YOUR_OPENWEATHER_API_KEY
 ```
 
-### Start the development server
+Start the development server:
 
 ```bash
 npm run dev
 ```
 
----
+## API
 
-## 🌐 API Used
+This project uses the **OpenWeather API** to fetch real-time weather data.
 
-**OpenWeather API**
+https://openweathermap.org/current
 
-https://openweathermap.org/api
+## Learning Outcomes
 
----
-
-## 📷 Screenshots
-
-### Home Page
-
-Add your screenshot here.
-
----
-
-## 📚 What I Learned
-
-During this project I practiced:
+This project helped me practice:
 
 - React Functional Components
 - React Hooks (`useState`)
-- Props
 - State Management
+- Props
 - API Integration using Fetch
 - Async/Await
 - Conditional Rendering
 - Error Handling
 - Material UI Components
 
----
+## Future Improvements
 
-## 🔮 Future Improvements
+- 5-day weather forecast
+- Wind speed and pressure
+- Sunrise and sunset timings
+- Dark mode
+- Loading spinner
+- Recent search history
 
-- 🌍 Auto-detect current location
-- ⭐ Save favorite cities
-- 🌅 Sunrise & Sunset timings
-- 📅 5-Day Weather Forecast
-- 🌬️ Wind Speed
-- 👁️ Visibility
-- 🌙 Dark Mode
-- ⏳ Loading Spinner
-
----
-
-## 👩‍💻 Author
+## Author
 
 **Ishwari Daphal**
 
-LinkedIn: https://www.linkedin.com/in/ishwari-daphal/
-
-GitHub: https://github.com/ishu2293
-
----
-
-## ⭐ Show your support
-
-If you like this project, give it a ⭐ on GitHub!
+- GitHub: https://github.com/ishu2293
+- LinkedIn: https://www.linkedin.com/in/ishwari-daphal-46a95432a
