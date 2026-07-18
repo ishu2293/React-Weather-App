@@ -1,8 +1,10 @@
 # React Weather App
 
-A responsive weather application built with **React** that provides real-time weather information for any city using the **OpenWeather API**.
+A responsive weather application built with **React** that provides **real-time weather** information for any city using the **OpenWeather API**.
 
 <img width="1348" height="817" alt="Screenshot 2026-07-18 224839" src="https://github.com/user-attachments/assets/7f078331-a4c8-49ae-bb80-80f2414b0f64" />
+<img width="1273" height="805" alt="image" src="https://github.com/user-attachments/assets/0dc6ef20-6f00-4dbb-a917-2f17766d6fa2" />
+
 
 
 ## Features
